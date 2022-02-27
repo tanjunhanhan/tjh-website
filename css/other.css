@@ -1,0 +1,63 @@
+h2{
+    color:rgb(255, 174, 0);
+    background-color: rgb(48, 118, 180);
+    text-align: center;
+    font: size 5vw;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#navbar{
+    background-color: rgb(252, 1, 1);
+    border-style: solid;
+    border-color:whitesmoke;
+    border-collapse: collapse;
+}
+#navbar th {
+    border: solid #000080;
+    padding: 5px;
+}
+header {
+    background-color: turquoise;
+    color: white;
+    text-align: center;
+    font: size 50px;
+    border: 3px solid #5e44cf;
+}
+.navbar {
+    background-color: yellow;
+    border: solid #000080;
+    font-size: 20px;
+    top: 0px;
+    position: sticky;
+}
+footer {
+    background-color: #000080;
+    color: white;
+    padding-left: 5px;
+    font: size 12px;
+    border: 3px solid #ffffff;
+}
+.profile{
+    background-color: #3e92cc;
+    text-align: center;
+}
+.even-row{
+    background-color: #000080;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color:#000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.active{
+    background-color: aqua;
+}
